@@ -1,0 +1,107 @@
+/* Light Mode */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333333; /* Dark gray text color */
+  font-family: Arial, sans-serif; /* Specify a font */
+}
+
+/* Header Navigation Links */
+.nav-link {
+  color: #007BFF; /* Blue link color */
+  font-weight: bold; /* Make links bold */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Post Form */
+#post-form-div {
+  padding: 20px;
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Post Cards */
+.post {
+  background-color: #ffffff; /* White background for posts */
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Container */
+#profile-div-container {
+  padding: 30px;
+  background-color: #ffffff; /* White background for profile */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Title */
+#profile-div-title {
+  font-size: 24px;
+  color: #333333; /* Dark gray title color */
+}
+
+/* Follow Button */
+#follow-button {
+  padding: 10px 20px;
+  background-color: #007BFF; /* Blue button background */
+  color: #ffffff; /* White button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Profile Stats List */
+#profile-stats-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#profile-stats-list > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Like and Unlike Buttons */
+.like-btn,
+.unlike-btn {
+  background-color: #007BFF; /* Blue button background */
+  color: #ffffff; /* White button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.like-btn:hover,
+.unlike-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Pagination Buttons */
+#btn-next-page,
+#btn-previous-page {
+  padding: 10px 20px;
+  background-color: #007BFF; /* Blue button background */
+  color: #ffffff; /* White button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-next-page:hover,
+#btn-previous-page:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333333; /* Dark gray footer background */
+  color: #ffffff; /* White footer text color */
+}
